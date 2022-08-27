@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock title %}
+
+{% block content %}
+
+    <h4>
+        Profile {{ user }}
+    </h4>
+<p>Username - {{ user.get_username }}</p>
+    <p>
+
+    </p>
+    {{ user }}'s Page.
+    <img src="#" alt="User image">
+
+{% endblock content %}
